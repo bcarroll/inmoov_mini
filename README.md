@@ -13,7 +13,7 @@ sudo apt install build-essential cmake pkg-config libjpeg-dev libtiff5-dev libja
 ```
 
 Compile OpenCV
-*Instructions modified from [pyimagesearch.com](https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/)
+#### Instructions modified from [pyimagesearch.com](https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/)
 ```
 sudo git clone https://github.com/opencv/opencv.git
 sudo git clone https://github.com/opencv/opencv_contrib.git
