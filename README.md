@@ -24,7 +24,7 @@ sudo apt install python-opencv
 
 Install the Python pre-requisite modules
 ```
-pip install -r requirements.txt
+sudo pip install -r requirements.txt
 ```
 
 Setup Flask
