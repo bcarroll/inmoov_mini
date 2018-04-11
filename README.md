@@ -6,6 +6,32 @@ The Web Based User Interface is heavily based on the [Flask Mega-Tutorial](https
 
 ## Usage
 
+Install Operating System pre-requisites
+```
+sudo apt update
+sudo apt install build-essential cmake pkg-config libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev libatlas-base-dev gfortran git python3-dev python3-pip
+```
+
+Compile OpenCV
+```
+sudo git clone https://github.com/opencv/opencv.git
+sudo git clone https://github.com/opencv/opencv_contrib.git
+cd opencv
+sudo mkdir build
+cd build
+sudo cmake -D CMAKE_BUILD_TYPE=RELEASE \
+    -D CMAKE_INSTALL_PREFIX=/usr/local \
+    -D INSTALL_PYTHON_EXAMPLES=ON \
+    -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules \
+    -D BUILD_EXAMPLES=ON ..
+```
+
+Make python3 the default python interpreter
+```
+sudo rm /usr/bin/python
+sudo ln -s /usr/bin/python3 /usr/bin/python
+```
+
 Clone this repo
 ```
 git clone https://github.com/bcarroll/inmoov_mini.git
@@ -14,12 +40,6 @@ git clone https://github.com/bcarroll/inmoov_mini.git
 Change to the inmoov_mini directory
 ```
 cd inmoov_mini
-```
-
-Install Operating System pre-requisites
-```
-sudo apt update
-sudo apt install python-opencv
 ```
 
 Install the Python pre-requisite modules
