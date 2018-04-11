@@ -9,18 +9,31 @@ The Web Based User Interface is based on the [Flask Mega-Tutorial](https://blog.
 Install Operating System pre-requisites
 ```
 sudo apt update
-sudo apt install build-essential cmake pkg-config libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev libatlas-base-dev gfortran git python3-dev python3-pip
+sudo apt install build-essential \
+    cmake \
+    pkg-config \
+    libjpeg-dev \
+    libtiff5-dev \
+    libjasper-dev \
+    libpng12-dev \
+    libavcodec-dev \
+    libavformat-dev \
+    libswscale-dev \
+    libv4l-dev \
+    libxvidcore-dev \
+    libx264-dev \
+    libatlas-base-dev \
+    gfortran \
+    git \
+    python3-dev \
+    python3-pip \
+    python3-numpy
 ```
 
 Make python3 the default python interpreter
 ```
 sudo rm /usr/bin/python
 sudo ln -s /usr/bin/python3 /usr/bin/python
-```
-
-Install NumPy
-```
-sudo pip install numpy
 ```
 
 Compile OpenCV
