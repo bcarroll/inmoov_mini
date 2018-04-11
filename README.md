@@ -16,6 +16,12 @@ Change to the inmoov_mini directory
 cd inmoov_mini
 ```
 
+Install Operating System pre-requisites
+```
+sudo apt update
+sudo apt install python-opencv
+```
+
 Install the Python pre-requisite modules
 ```
 pip install -r requirements.txt
