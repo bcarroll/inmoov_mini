@@ -1,3 +1,5 @@
-# Welcome to InMoov!
+# InMoov Mini 
 
-This application is based heavily on the [Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world).
+InMoov Mini is a scaled down (60%) version of [InMoov](http://inmoov.fr)
+
+The Web Based User Interface is heavily based on the [Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world).
