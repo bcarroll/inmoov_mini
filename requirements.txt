@@ -30,7 +30,7 @@ Jinja2==2.10
 Mako==1.0.7
 MarkupSafe==1.0
 numpy==1.14.2
-psutil==5.4.3
+psutil==5.6.6
 pyFirmata==1.0.3
 PyJWT==1.5.3
 pyserial==3.4
