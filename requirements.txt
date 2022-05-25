@@ -32,7 +32,7 @@ MarkupSafe==1.0
 numpy==1.14.2
 psutil==5.4.3
 pyFirmata==1.0.3
-PyJWT==1.5.3
+PyJWT==2.4.0
 pyserial==3.4
 python-dateutil==2.6.1
 python-dotenv==0.7.1
