@@ -2,7 +2,7 @@ Adafruit-GPIO==1.0.3
 Adafruit-PureIO==0.2.1
 Adafruit-SSD1306==1.6.1
 alembic==0.9.6
-Babel==2.5.1
+Babel==2.9.1
 blinker==1.4
 certifi==2017.7.27.1
 chardet==3.0.4
