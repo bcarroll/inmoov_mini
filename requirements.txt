@@ -29,7 +29,7 @@ itsdangerous==0.24
 Jinja2==2.11.3
 Mako==1.0.7
 MarkupSafe==1.0
-numpy==1.14.2
+numpy==1.22.0
 psutil==5.4.3
 pyFirmata==1.0.3
 PyJWT==2.4.0
